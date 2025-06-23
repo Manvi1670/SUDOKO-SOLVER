@@ -126,7 +126,7 @@ Solved in 0.00045 seconds.
 
 ## Author
 - Kumara Vishnu Koushik
-- [Your GitHub Profile](https://github.com/vishnukoushikkumara)
+- [My GitHub Profile](https://github.com/vishnukoushikkumara)
 
 ---
 
