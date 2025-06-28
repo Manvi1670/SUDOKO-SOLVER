@@ -125,8 +125,8 @@ Solved in 0.00045 seconds.
 - `sample.txt` — Example input file
 
 ## Author
-- Kumara Vishnu Koushik
-- [My GitHub Profile](https://github.com/vishnukoushikkumara)
+- Manvitha Bheemavarapu
+- [My GitHub Profile](https://github.com/Manvi1670)
 
 ---
 
