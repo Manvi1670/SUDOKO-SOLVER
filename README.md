@@ -2,9 +2,9 @@
 
 A C++ console application that minimizes the total cash flow among multiple banks using a graph-based greedy algorithm, enhanced with payment-mode constraints (set intersection) and optimized with priority queues for scalability.
 
----
 
----
+
+
 
 ## 📘 Description
 
@@ -44,13 +44,7 @@ cd cash-flow-minimizer
 # Build using g++
 g++ -std=c++11 main.cpp -o cashflow
 
-# Or using CMake
-mkdir build && cd build
-cmake ..
-make
-````
 
----
 
 ## 🚀 Usage
 
