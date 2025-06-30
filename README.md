@@ -1,7 +1,6 @@
 # Sudoku Solver (C++ - Dancing Links)
 
-A fast, robust, and feature-rich Sudoku solver using Donald Knuth's Algorithm X (Dancing Links) in C++. This project demonstrates advanced algorithmic techniques and clean C++ programming, suitable for inclusion in your CV and as a GitHub portfolio project.
-
+A fast, robust, and feature-rich Sudoku solver using Donald Knuth's Algorithm X (Dancing Links) in C++. This project demonstrates advanced algorithmic techniques.
 ## Project Description
 This project is a command-line Sudoku solver that can handle any standard 9x9 Sudoku puzzle, including those with multiple solutions. It supports both interactive and batch (file) modes, provides pretty-printed output, validates input, and measures solving time. The code is well-documented and user-friendly, making it a great showcase for your programming and algorithmic skills.
 
