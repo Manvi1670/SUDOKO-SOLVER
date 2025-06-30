@@ -1,0 +1,78 @@
+# =====================================
+# 1. Simple cyclic debt
+3
+WorldBank 2 GooglePay Paytm
+A 1 GooglePay
+B 1 GooglePay
+3
+A B 100
+B WorldBank 100
+WorldBank A 100
+# End Test #1
+
+# =====================================
+# 2. Mismatched support requiring fallback
+3
+WorldBank 2 GooglePay Paytm
+A 1 GooglePay
+B 1 Paytm
+2
+A B 200
+B A 50
+# End Test #2
+
+# =====================================
+# 3. Multi-party chain with shared modes
+4
+WorldBank 3 GooglePay Paytm UPI
+A 2 GooglePay UPI
+B 1 UPI
+C 1 Paytm
+5
+A B 300
+B C 150
+C A 50
+C B 100
+A C 100
+# End Test #3
+
+# =====================================
+# 4. Zero-net banks + complex routing
+5
+WorldBank 2 UPIPay Paytm
+A 1 UPIPay
+B 1 UPIPay
+C 1 Paytm
+D 2 UPIPay Paytm
+6
+A B 100
+B C 100
+C D 50
+D A 30
+D WorldBank 20
+WorldBank C 10
+# End Test #4
+
+# =====================================
+# 5. Large randomized scenario
+8
+WorldBank 3 GooglePay Paytm UPI
+A 2 GooglePay UPI
+B 1 Paytm
+C 2 UPI Paytm
+D 1 GooglePay
+E 2 CreditCard Paytm
+F 1 UPI
+G 1 GooglePay
+10
+A B 150
+B C 120
+C D 200
+D E 80
+E F 210
+F G 50
+G A 90
+A C 60
+B E 75
+F D 130
+# End Test #5
