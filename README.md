@@ -119,31 +119,6 @@ SBI pays Rs 500 to ICICI via GooglePay
 ---
 
 
----
-
-## 🔧 Technical Details
-
-### Time Complexity:
-- **Net Balance Calculation**: O(n²) where n = number of banks
-- **Settlement Algorithm**: O(n² × m) where m = max payment modes
-- **Set Intersection**: O(min(|A|, |B|)) for payment mode matching
-
-### Space Complexity:
-- **Transaction Graph**: O(n²) 
-- **Bank Storage**: O(n × m) where m = average payment modes per bank
-
-### Key Functions:
-- `getMinIndex()`: Finds bank with minimum (most negative) balance
-- `getMaxIndex()`: Finds bank with maximum positive balance and common payment mode
-- `getSimpleMaxIndex()`: Finds bank with maximum balance (fallback)
-- `minimizeCashFlow()`: Main algorithm implementation
-- `printAns()`: Optimized output with bilateral transaction elimination
-
----
-
-
-
----
 
 ## 👤 Author
 
